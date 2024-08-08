@@ -1,3 +1,6 @@
+import {render, screen } from '@testing-library/react';
+import ProjectList from '../components/ProjectList';
+
 const user = {
   name: "Liza",
   city: "New York",
